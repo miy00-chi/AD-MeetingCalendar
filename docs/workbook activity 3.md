@@ -80,7 +80,7 @@ composer require vlucas/phpdotenv
 
 Make sure important informations are hidden and tucked . as in testing of for the checker they should be changed from hard codded to env based
 
-- [ ] Fill all the following data
+- [x] Fill all the following data
   > Restart the docker after this. both `docker compose watch` and `docker compose up`
 - [ ] Change the hard coded of checkers to env based
 - [ ] Create a `envSetter.util.php` code distributing all the env

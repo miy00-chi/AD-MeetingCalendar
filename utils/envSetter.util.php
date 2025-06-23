@@ -1,13 +1,19 @@
 <?php
+require BASE_PATH . '/vendor/autoload.php';
 
-// Path to Composer's autoloader relative to the project root
-require __DIR__ . '/vendor/autoload.php';
-
-// Initialize Dotenv to load environment variables
-// Use __DIR__ to ensure it looks for .env in the same directory as bootstrap.php (project root)
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable(BASE_PATH);
 $dotenv->load();
 
-// You can add other global configurations, error reporting settings, etc., here later.
+$pgConfig = [
+    'host' => $_ENV['PG_HOST'],
+    'port' => $_ENV['PG_PORT'],
+    'db' => $_ENV['PG_DB'],
+    'user' => $_ENV['PG_USER'],
+    'pass' => $_ENV['PG_PASS']
+];
 
+$mongoConfig = [
+    'uri' => $_ENV['MONGO_URI'],
+    'db' => $_ENV['MONGO_DB']
+];
 ?>

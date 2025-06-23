@@ -1,10 +1,10 @@
 <?php
 
-$host = "postgresql"; 
-$port = "5432";
-$username = "user";
-$password = "password";
-$dbname = "meetingcalendardb";
+$host = $pgConfig['host'];
+$port = $pgConfig['port'];
+$username = $pgConfig['user'];
+$password = $pgConfig['pass'];
+$dbname = $pgConfig['db'];
 
 $conn_string = "host=$host port=$port dbname=$dbname user=$username password=$password";
 

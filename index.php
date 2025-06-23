@@ -8,8 +8,10 @@
 <body>
     <h1>DATABASE CONNECTION STATUS:</h1>
     <?php
-        include_once HANDLERS_PATH . '/mongodbChecker.handler.php';
-        include_once HANDLERS_PATH . '/postgreChecker.handler.php';
+        require_once 'bootstrap.php'; // This MUST come first
+
+        require_once HANDLERS_PATH . '/mongodbChecker.handler.php';
+        require_once HANDLERS_PATH . '/postgreChecker.handler.php';
     ?>
 </body>
 </html>

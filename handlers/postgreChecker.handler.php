@@ -1,4 +1,5 @@
 <?php
+require_once BASE_PATH . '/utils/envSetter.util.php';
 
 $host = $pgConfig['host'];
 $port = $pgConfig['port'];
@@ -17,3 +18,4 @@ if (!$dbconn) {
     echo "✔️ PostgreSQL Connection  <br>";
     pg_close($dbconn);
 }
+?>

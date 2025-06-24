@@ -128,15 +128,15 @@ Using the GUI of database you need to formulate your data structure on how you w
 in this demo we need to have a design for our users
 Task: Users can be divided into group, they can login, basic information and role.
 
-- [ ] Design a structure
+- [x] Design a structure
 - [ ] Create Base Pattern using the tool by simple selecting the database from `Database`
-  - [ ] Select your <database name> ex.: `mydatabase`
-  - [ ] Select `Tables` and look for the `+` sign then click it
-  - [ ] Create Sample code then copy
+  - [x] Select your <database name> ex.: `mydatabase`
+  - [x] Select `Tables` and look for the `+` sign then click it
+  - [x] Create Sample code then copy
   - [ ] Goto your `Explorer`
   - [ ] Create new file for that specific model ex.: `user.model.sql`
   - [ ] Add conditional command on your SQL code
-    - [x] between `CREATE TABLE` and `<table name>` add the following code `IF NOT EXISTS`
+    - [ ] between `CREATE TABLE` and `<table name>` add the following code `IF NOT EXISTS`
 
 Task:
 Create more tables for the following

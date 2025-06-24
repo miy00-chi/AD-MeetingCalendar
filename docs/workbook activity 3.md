@@ -171,7 +171,7 @@ In this step we will design an automation that resets the database when needed a
 - Process: Automatically Create
 - Output: Create the Tables Ready for Use
 
-- [ ] Creating a new util code `dbResetPostgresql.util.php`
+- [x] Creating a new util code `dbResetPostgresql.util.php`
 
 - [ ] Setting up requirements
   > Just copy this

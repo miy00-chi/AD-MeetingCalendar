@@ -24,4 +24,10 @@
 
     // If your model.sql contains a working command it will be executed
     $pdo->exec($sql);
+
+    //Cleans table
+    echo "Truncating tables…\n";
+    foreach (['users'] as $table) {
+    $pdo->exec("TRUNCATE TABLE {$table} RESTART IDENTITY CASCADE;");
+}
 ?>

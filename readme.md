@@ -50,19 +50,23 @@
 ---
 
 ## Overview
+
 The 3rd activity for Application Development. This project is called Meeting Calendar. The objective of the activity is to implement the database.
 
 ### Key Components
+
 - Authentication & Authorization
 - CRUD Operations for Invetory System
 
 ### Technology
 
 #### Language
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 #### Databases
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -76,16 +80,16 @@ The 3rd activity for Application Development. This project is called Meeting Cal
 4. Add `.util` to the `.php` files if they are utility codes; example: `account.util.php`.
 5. Place Files in their respective folders.
 6. Different file naming Cases
-   | Naming Case | Type of code         | Example                           |
+   | Naming Case | Type of code | Example |
    | ----------- | -------------------- | --------------------------------- |
-   | Pascal      | Utility              | Accoun.util.php                   |
-   | Camel       | Components and Pages | index.php or footer.component.php |
-8. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-9. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
-10. File Structure to follow below.
+   | Pascal | Utility | Accoun.util.php |
+   | Camel | Components and Pages | index.php or footer.component.php |
+7. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+8. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
+9. File Structure to follow below.
 
 ```
-AD-ProjectName
+AD-Meeting-Calendar
 └─ assets
 |   └─ css
 |   |   └─ name.css
@@ -97,9 +101,15 @@ AD-ProjectName
 |   └─ name.component.php
 |   └─ templates
 |      └─ name.component.php
+└─ database
+|   └─ meeting-users.model.sql
+|   └─ meetings.model.sql
+|   └─ tasks.model.sql
+|   └─ users.model.sql
 └─ handlers
-|   └─ name.handler.php
-└─ layout
+|   └─ mongodbChecker.handler.php
+|   └─ postgreChecker.handler.php
+└─ layouts
 |   └─ name.layout.php
 └─ pages
 |  └─ pageName
@@ -111,24 +121,27 @@ AD-ProjectName
 |     |  └─ js
 |     |     └─ name.js
 |     └─ index.php
-└─ staticData
+└─ staticDatas
 |  └─ name.staticdata.php
 └─ utils
-|   └─ name.utils.php
+|   └─ dbResetPostgresql.util.php
+|   └─ envSetter.util.php
+|   └─ htmlEscape.util.php
 └─ vendor
 └─ .gitignore
 └─ bootstrap.php
+└─ composer.yaml
 └─ composer.json
 └─ composer.lock
 └─ index.php
 └─ readme.md
 └─ router.php
 ```
+
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 
 ## Resources
 
-
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| N/A | N/A | N/A |
+| Title | Purpose | Link |
+| ----- | ------- | ---- |
+| N/A   | N/A     | N/A  |

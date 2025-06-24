@@ -102,11 +102,11 @@ Make sure important informations are hidden and tucked . as in testing of for th
 Using `Database` a tool at the tool tab manage and view your database
 
 - [x] Make Sure the Database is working. Go to Docker Desktop and make sure the `image` of `postgre` is green.
-- [ ] In `Database` click `Create Connection`
-- [ ] Select `PostgreSQL`
+- [x] In `Database` click `Create Connection`
+- [x] Select `PostgreSQL`
 - [ ] Setup connection: Port, Username, Password and Database
   > can be view the data in `compose.yaml`
-- [ ] Click Connect and should show: `Connection Success!` then `Save`
+- [x] Click Connect and should show: `Connection Success!` then `Save`
 
 ### 8. Design Database: Creating Database formula preparation for automation
 

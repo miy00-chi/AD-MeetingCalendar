@@ -12,6 +12,10 @@
             "email": "hazelmito2029@gmail.com"
         }
     ],
+    "scripts": {
+        "postgresql:reset": "php utils/dbResetPostgresql.util.php",
+        "start": "php -S localhost:8000 router.php"
+    },
     "require": {
         "vlucas/phpdotenv": "^5.6"
     }

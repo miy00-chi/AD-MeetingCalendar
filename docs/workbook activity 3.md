@@ -142,8 +142,8 @@ Task:
 Create more tables for the following
 
 - [x] Meetings
-- [ ] Meeting ↔ User assignments (meeting_user)
-- [ ] Tasks
+- [x] Meeting ↔ User assignments (meeting_user)
+- [x] Tasks
 
 Just Copy the following for the `project_users.model.sql`
 

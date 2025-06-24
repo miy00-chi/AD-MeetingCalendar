@@ -141,7 +141,7 @@ Task: Users can be divided into group, they can login, basic information and rol
 Task:
 Create more tables for the following
 
-- [ ] Meetings
+- [x] Meetings
 - [ ] Meeting ↔ User assignments (meeting_user)
 - [ ] Tasks
 

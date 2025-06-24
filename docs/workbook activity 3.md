@@ -133,10 +133,10 @@ Task: Users can be divided into group, they can login, basic information and rol
   - [x] Select your <database name> ex.: `mydatabase`
   - [x] Select `Tables` and look for the `+` sign then click it
   - [x] Create Sample code then copy
-  - [ ] Goto your `Explorer`
-  - [ ] Create new file for that specific model ex.: `user.model.sql`
-  - [ ] Add conditional command on your SQL code
-    - [ ] between `CREATE TABLE` and `<table name>` add the following code `IF NOT EXISTS`
+  - [x] Goto your `Explorer`
+  - [x] Create new file for that specific model ex.: `user.model.sql`
+  - [x] Add conditional command on your SQL code
+    - [x] between `CREATE TABLE` and `<table name>` add the following code `IF NOT EXISTS`
 
 Task:
 Create more tables for the following

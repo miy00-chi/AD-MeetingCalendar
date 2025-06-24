@@ -199,7 +199,7 @@ $pdo = new PDO($dsn, $pgConfig['user'], $pgConfig['pass'], [
 ]);
 ```
 
-- [ ] Using specific commands to use to automatically generate the database tables
+- [x] Using specific commands to use to automatically generate the database tables
 
 ```php
 // Just indicator it was working
@@ -218,7 +218,7 @@ if ($sql === false) {
 $pdo->exec($sql);
 ```
 
-- [ ] Make sure it clean the tables
+- [x] Make sure it clean the tables
 
 ```php
 echo "Truncating tables…\n";
@@ -227,12 +227,12 @@ foreach (['users'] as $table) {
 }
 ```
 
-- [ ] Add the command in the composer.json
+- [x] Add the command in the composer.json
 
   - below `scripts` add a new library key set
   - `"postgresql:reset": "php utils/dbResetPostgresql.util.php`
 
-- [ ] Test it if working
+- [x] Test it if working
   - in terminal use command `composer postgresql:reset`
 
 ## 10. Adding Seeder: Able to Disable and Enable

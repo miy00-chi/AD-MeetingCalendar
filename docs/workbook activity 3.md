@@ -82,8 +82,8 @@ Make sure important informations are hidden and tucked . as in testing of for th
 
 - [x] Fill all the following data
   > Restart the docker after this. both `docker compose watch` and `docker compose up`
-- [ ] Change the hard coded of checkers to env based
-- [ ] Create a `envSetter.util.php` code distributing all the env
+- [x] Change the hard coded of checkers to env based
+- [x] Create a `envSetter.util.php` code distributing all the env
 - [ ] Update `mongodbChecker.handler.php` and `postgreChecker.handler.php`
       All working:
 

@@ -101,7 +101,7 @@ Make sure important informations are hidden and tucked . as in testing of for th
 
 Using `Database` a tool at the tool tab manage and view your database
 
-- [ ] Make Sure the Database is working. Go to Docker Desktop and make sure the `image` of `postgre` is green.
+- [x] Make Sure the Database is working. Go to Docker Desktop and make sure the `image` of `postgre` is green.
 - [ ] In `Database` click `Create Connection`
 - [ ] Select `PostgreSQL`
 - [ ] Setup connection: Port, Username, Password and Database

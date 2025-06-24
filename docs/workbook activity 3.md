@@ -189,7 +189,7 @@ require 'bootstrap.php';
 require_once UTILS_PATH . '/envSetter.util.php';
 ```
 
-- [ ] Adding the database host and connecting
+- [x] Adding the database host and connecting
 
 ```php
 // ——— Connect to PostgreSQL ———
